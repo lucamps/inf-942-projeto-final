@@ -13,6 +13,7 @@ scikit-learn = "^1.1.1"
 jupyter = "^1.0.0"
 matplotlib = "^3.5.2"
 tqdm = "^4.64.0"
+torchsummary = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
 
