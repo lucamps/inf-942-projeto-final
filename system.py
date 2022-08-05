@@ -21,7 +21,7 @@ def classify(model, img):
   img_class = {
     0: 'Mask weared incorrect',
     1: 'With mask',
-    2: 'Witout mask'
+    2: 'Without mask'
   }
 
   return img_class[int(predict.item())]
